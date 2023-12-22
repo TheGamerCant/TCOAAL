@@ -1,0 +1,20 @@
+
+state={
+	id=446
+	name="STATE_446" # Suez
+	manpower = 1 #131732
+	state_category=wasteland# = wasteland
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1155 4073 9947 12049 
+	}
+
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.000
+}

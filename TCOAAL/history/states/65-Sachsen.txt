@@ -1,0 +1,23 @@
+
+state={
+	id=65
+	name="STATE_65"
+	manpower = 1 #5592576
+	resources={
+		steel=41 #was 12 was 32 #was 53 # was: 90
+	}
+
+	state_category=wasteland# = metropolis
+
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=783
+	name="STATE_783" # Sidi Ifni
+	manpower = 1 #11043
+	
+	state_category=wasteland# = pastoral
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		12857
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=529
+	name="STATE_529" # Chugoku
+	manpower = 1 #5341000
+	state_category=wasteland# = large_city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+	}
+
+	local_supplies=0.0 
+}

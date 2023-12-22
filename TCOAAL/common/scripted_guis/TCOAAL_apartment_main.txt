@@ -1,0 +1,62 @@
+scripted_gui = {
+	tcoaal_apartment_main = {
+		window_name = "tcoaal_apartment_main"
+		context_type = player_context
+		
+		ai_enabled={
+			always = no
+		}
+		
+		visible={
+			has_country_flag = in_apartment_main_flag
+		}
+		
+		triggers={
+			apartment_message_bg_visible={
+				OR={
+					has_country_flag = narrator_apartment_intro_0000_flag
+					has_country_flag = ashley_apartment_intro_0001_flag
+					has_country_flag = narrator_apartment_intro_0002_flag
+					has_country_flag = narrator_apartment_intro_0003_flag
+					has_country_flag = narrator_apartment_intro_0004_flag
+					has_country_flag = movies_0000_flag
+					has_country_flag = movies_0001_flag
+					has_country_flag = television_0000_flag
+					has_country_flag = television_0001_flag
+					has_country_flag = telephone_0000_flag
+					has_country_flag = telephone_0001_flag
+					has_country_flag = VHS_player_0000_flag
+				}
+			}
+			
+			interact_sprite_visible={
+				can_interact_with_object = yes
+			}
+			
+			left_hand_slot_visible={
+				always = no
+			}
+			right_hand_slot_visible={
+				has_country_flag = ashley_apartment_intro_0001_flag
+			}
+		}
+		
+		effects={
+		}
+		
+		properties={
+			player={
+				x = player_position_x
+				y = player_position_y
+				frame = player_direction_variable
+			}
+			interact_sprite={
+				x = player_position_x
+				y = player_position_y
+			}
+			right_hand_slot={
+				image = "[get_RIGHT_slot_image]"
+			}
+		}
+	}
+}

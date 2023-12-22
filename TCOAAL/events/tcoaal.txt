@@ -1,0 +1,380 @@
+add_namespace = tcoaal
+add_namespace = tcoaal_music
+
+country_event = {
+	id = tcoaal_music.1
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		if={
+			limit = { has_country_flag = TCOAAL_play_jealous_doll_flag }
+			play_song = "jealous_doll"
+			country_event = { id = tcoaal_music.1 hours = 447 }
+		}
+	}
+}
+
+country_event = {
+	id = tcoaal_music.2
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		if={
+			limit = { has_country_flag = TCOAAL_play_twisted_clowns_flag }
+			play_song = "twisted_clowns"
+			country_event = { id = tcoaal_music.2 hours = 720 }
+		}
+	}
+}
+
+country_event = {
+	id = tcoaal_music.3
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		if={
+			limit = { has_country_flag = TCOAAL_play_dreaming_injection_flag }
+			play_song = "dreaming_injection"
+			country_event = { id = tcoaal_music.3 hours = 363 }
+		}
+	}
+}
+
+country_event = {
+	id = tcoaal.1
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = initgameflag
+		play_song = "stop_track"
+		
+		country_event = { id = tcoaal.2 hours = 2 }
+	}
+}
+
+country_event = {
+	id = tcoaal.2
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		set_country_flag = show_chapter_1_title_flag
+		play_song = "jingle"
+		
+		country_event = { id = tcoaal.3 hours = 11 }
+	}
+}
+
+country_event = {
+	id = tcoaal.3
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = show_chapter_1_title_flag
+		set_country_flag = intro_cutscene_1_flag
+		play_jealous_doll = yes
+		
+		country_event = { id = tcoaal.4 hours = 2 }
+	}
+}
+
+country_event = {
+	id = tcoaal.4
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		set_country_flag = intro_andy_0000_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.5
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_andy_0000_flag
+		clr_country_flag = space_button_diabled
+		set_country_flag = intro_leyley_0001_flag
+	}
+}
+
+
+country_event = {
+	id = tcoaal.6
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_leyley_0001_flag
+		clr_country_flag = space_button_diabled
+		set_country_flag = intro_leyley_0002_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.7
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_leyley_0002_flag
+		clr_country_flag = space_button_diabled
+		set_country_flag = intro_andy_0003_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.8
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_andy_0003_flag
+		clr_country_flag = space_button_diabled
+		set_country_flag = intro_leyley_0004_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.9
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_leyley_0004_flag
+		clr_country_flag = space_button_diabled
+		set_country_flag = intro_andy_0005_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.10
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_andy_0005_flag
+		clr_country_flag = space_button_diabled
+		clear_music_flags = yes
+		play_song = "disk_scratch"
+		country_event = { id = tcoaal.11 hours = 2 }
+	}
+}
+
+country_event = {
+	id = tcoaal.11
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		set_country_flag = intro_wake_0_flag
+#		country_event = { id = tcoaal.12 hours = 5 }
+		country_event = { id = tcoaal.13 hours = 13 }
+#		country_event = { id = tcoaal.14 hours = 18 }
+	}
+}
+
+country_event = {
+	id = tcoaal.12
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = intro_wake_0_flag
+		set_country_flag = intro_wake_1_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.13
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = intro_wake_0_flag
+		clr_country_flag = intro_wake_1_flag
+		clr_country_flag = intro_cutscene_1_flag
+		
+		set_country_flag = in_apartment_main_flag
+		set_country_flag = player_is_ashley_flag
+		set_variable = { player_direction_variable = 1 }
+		
+		set_variable = { player_previous_position_x = 622 }
+		set_variable = { player_previous_position_y = 442 }
+		set_variable = { player_position_x = 622 }
+		set_variable = { player_position_y = 442 }
+		
+		play_dreaming_injection = yes
+		
+		country_event = { id = tcoaal.15 hours = 2 }
+		set_country_flag = space_button_diabled
+	}
+}
+
+country_event = {
+	id = tcoaal.14
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = player_moved_recently_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.15
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		set_country_flag = narrator_apartment_intro_0000_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.16
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = narrator_apartment_intro_0000_flag
+		set_country_flag = ashley_apartment_intro_0001_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.17
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = ashley_apartment_intro_0001_flag
+		set_country_flag = narrator_apartment_intro_0002_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.18
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = narrator_apartment_intro_0002_flag
+		set_country_flag = narrator_apartment_intro_0003_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.19
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = narrator_apartment_intro_0003_flag
+		set_country_flag = narrator_apartment_intro_0004_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.20
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = narrator_apartment_intro_0004_flag	
+	}
+}
+
+country_event = {
+	id = tcoaal.21
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = movies_0000_flag
+		set_country_flag = movies_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.22
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = movies_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.23
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = television_0000_flag
+		set_country_flag = television_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.24
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = television_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.25
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = telephone_0000_flag
+		set_country_flag = telephone_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.26
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = telephone_0001_flag
+	}
+}
+
+country_event = {
+	id = tcoaal.27
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate={
+		clr_country_flag = space_button_diabled
+		clr_country_flag = VHS_player_0000_flag
+	}
+}

@@ -1,0 +1,20 @@
+state = {
+	id=931
+	name="STATE_931"
+	manpower = 1 #745101
+	state_category=wasteland# = town
+	resources = {
+		steel = 20 
+		aluminium = 5
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		219 6399 9285 11332 
+	}
+	local_supplies = 0.000
+}

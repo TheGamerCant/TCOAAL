@@ -1,0 +1,22 @@
+state={
+	id=274
+	name="STATE_274"
+	resources={
+		steel=8 
+		tungsten=8 
+		chromium=4
+	} #Maganese
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		8039 8096 10862 12742 12785 12787 13136 
+	}
+	manpower=1 #3163600
+	buildings_max_level_factor=1.000
+	state_category=wasteland#=rural
+
+	local_supplies=0.0 
+}

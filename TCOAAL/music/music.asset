@@ -1,0 +1,40 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+
+
+#TCOAAL stuff
+music = {
+	name = "jingle"
+	file = "TCOAAL_music/jingle.ogg"
+	volume = 1.1
+}
+music = {
+	name = "disk_scratch"
+	file = "TCOAAL_music/disk_scratch.ogg"
+	volume = 1.1
+}
+music = {
+	name = "stop_track"
+	file = "TCOAAL_music/stop_track.ogg"
+	volume = 0
+}
+music = {
+	name = "twisted_clowns"
+	file = "TCOAAL_music/twisted_clowns.ogg"
+	volume = 1.0
+}
+music = {
+	name = "jealous_doll"
+	file = "TCOAAL_music/jealous_doll.ogg"
+	volume = 1.0
+}
+music = {
+	name = "dreaming_injection"
+	file = "TCOAAL_music/dreaming_injection.ogg"
+	volume = 1.0
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=534
+	name="STATE_534" # Hokuriku
+	manpower = 1 #1933000
+	
+	state_category=wasteland# = city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1117 9952 10128 11930 11989 12007 
+	}
+
+	local_supplies=0.0 
+}

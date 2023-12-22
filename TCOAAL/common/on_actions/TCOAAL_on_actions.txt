@@ -1,0 +1,7 @@
+on_actions={
+	on_start_up={
+		effect={
+			UKR={ country_event = { id = tcoaal.1 hours = 1 } }
+		}
+	}
+}

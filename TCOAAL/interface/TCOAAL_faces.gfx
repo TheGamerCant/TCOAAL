@@ -1,0 +1,7 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_Ashley_weak"
+		texturefile = "gfx/character_faces/Ashley_weak.png"
+		noOfFrames = 2
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=478
+	name="STATE_478" # Jalisco
+	manpower = 1 #2470875
+	
+	state_category=wasteland# = town
+	
+	resources={
+		tungsten=8 # was: 10
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		2051 5052 10172 12746 12873 13089 
+	}
+	
+
+	local_supplies=0.0 
+}

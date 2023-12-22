@@ -1,0 +1,17 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	manpower=1 #9000000
+	buildings_max_level_factor=1.000
+	state_category=wasteland# = town
+
+	local_supplies=0.0 
+}

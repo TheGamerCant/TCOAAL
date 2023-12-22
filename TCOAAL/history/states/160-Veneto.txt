@@ -1,0 +1,23 @@
+state = {
+	id = 160
+	name = "STATE_160"
+	resources = {
+		steel=20 # was: 32.000
+		aluminium=11 # was: 18.000
+	}
+	
+	state_category=wasteland# = large_city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		603 628 3604 3657 6656 9582 9613 11584 
+	}
+	manpower = 1 #3963151
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 5.0 
+}

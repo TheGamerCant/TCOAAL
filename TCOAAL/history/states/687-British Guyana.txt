@@ -1,0 +1,22 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 1 #309000
+	
+	state_category=wasteland# = pastoral
+	
+	resources={
+		aluminium=64 # was: 112
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	
+	provinces={
+		4982 8107 12716 
+	}
+
+	local_supplies=5.0 
+}

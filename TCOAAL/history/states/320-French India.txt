@@ -1,0 +1,17 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 1 #286410
+
+	state_category=wasteland# = enclave
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={ 10149 }
+
+	local_supplies=0.0 
+}

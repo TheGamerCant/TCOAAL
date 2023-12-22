@@ -1,0 +1,18 @@
+state = {
+	id = 585
+	name = "STATE_585" #Navoiy
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		1532 1554 4499 7501 7507 10420
+	}
+	manpower = 1 #465174 # 9/10ths of before
+	buildings_max_level_factor = 1.000
+	state_category=wasteland# = rural
+
+	local_supplies = 0.0 
+}

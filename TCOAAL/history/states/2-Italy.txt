@@ -1,0 +1,18 @@
+state = {
+	id = 2
+	name = "STATE_2" # Latium
+	manpower = 1 #1
+	
+	state_category=wasteland# = wasteland
+
+	history = {
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		923 6862 9794 9904 11751 11846 11882
+ 	}
+
+	local_supplies = 0.0 
+}

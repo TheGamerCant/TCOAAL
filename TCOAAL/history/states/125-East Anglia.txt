@@ -1,0 +1,19 @@
+
+state={
+	id=125
+	name="STATE_125"
+	manpower = 1 #1363174
+	
+	state_category=wasteland# = city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 
+	}
+
+	local_supplies=0.0 
+}

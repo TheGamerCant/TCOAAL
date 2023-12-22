@@ -1,0 +1,8 @@
+
+soundeffect = {
+	name = TCOAAL_button_click
+	volume = 1.1
+	sounds = {
+		sound = TCOAAL_button_click
+	}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=778
+	name="STATE_778" # Upper Volta
+	manpower = 1 #3186184
+	
+	state_category=wasteland# = pastoral
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851
+	}
+
+	local_supplies=1.0 
+}

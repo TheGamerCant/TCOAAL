@@ -1,0 +1,23 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower = 1 #1685989
+	resources={
+		aluminium = 2
+	}
+	
+	
+	state_category=wasteland# = city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		793 935 949 965 3908 3971 9771 11754 
+	}
+
+	local_supplies=0.0 
+}

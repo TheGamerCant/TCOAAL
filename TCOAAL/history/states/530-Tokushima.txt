@@ -1,0 +1,16 @@
+state=
+{
+	id=530
+	name="STATE_530" # Shikoku
+	manpower = 1 #3310000
+	state_category=wasteland# = large_city
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		4094 4179 7046 7197 9965 11997 12028
+	}
+
+	local_supplies=0.0 
+}

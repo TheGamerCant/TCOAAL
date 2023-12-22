@@ -1,0 +1,19 @@
+state = {
+	id = 926
+	name = "STATE_926" #TURKU AND PORI
+
+	manpower = 1 #529300
+	
+	state_category=wasteland# = town
+	
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		32 169 3009 3083 3117 6066 9094 9194 13101 
+	}
+	
+	local_supplies = 0.0
+}

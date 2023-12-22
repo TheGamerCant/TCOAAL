@@ -1,0 +1,17 @@
+
+state={
+	id=632
+	name="STATE_632"
+	manpower=1 #150
+	state_category=wasteland# = tiny_island
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		13047 
+	}
+
+	local_supplies=0.0 
+}

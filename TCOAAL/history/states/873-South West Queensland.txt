@@ -1,0 +1,15 @@
+state={
+	id=873
+	name="STATE_873"
+	provinces={
+		2116 2221 5198 10941 12949 
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	state_category=wasteland# = pastoral
+	manpower=1 #10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

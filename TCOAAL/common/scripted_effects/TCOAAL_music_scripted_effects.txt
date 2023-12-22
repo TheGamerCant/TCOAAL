@@ -1,0 +1,29 @@
+clear_music_flags={
+	clr_country_flag = TCOAAL_play_jealous_doll_flag
+	clr_country_flag = TCOAAL_play_twisted_clowns_flag
+	
+	play_song = "stop_track"
+}
+
+play_jealous_doll={
+	clear_music_flags = yes
+	
+	set_country_flag = TCOAAL_play_jealous_doll_flag
+	play_song = "jealous_doll"
+	country_event = { id = tcoaal_music.1 hours = 452 }
+}
+
+play_twisted_clowns={
+	clear_music_flags = yes
+	
+	set_country_flag = TCOAAL_play_twisted_clowns_flag
+	play_song = "twisted_clowns"
+	country_event = { id = tcoaal_music.2 hours = 725 }
+}
+play_dreaming_injection={
+	clear_music_flags = yes
+	
+	set_country_flag = TCOAAL_play_dreaming_injection_flag
+	play_song = "dreaming_injection"
+	country_event = { id = tcoaal_music.3 hours = 367 }
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=773
+	name="STATE_773" # Cameroon
+	manpower = 1 #2945782
+	
+	state_category=wasteland# = rural
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		2080 5036 5054 6039 7963 9137 11194 
+	}
+
+	local_supplies=0.0 
+}

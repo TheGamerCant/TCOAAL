@@ -1,0 +1,18 @@
+state={
+	id=787
+	name="STATE_787" # Northern Kashmir
+	manpower = 1 #1415800
+	
+	state_category=wasteland# = rural
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1910 2041 2084 10821 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+state={
+	id=745
+	name="STATE_745"
+	provinces={
+		1150 6851 
+	}
+	state_category=wasteland# = large_town
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	manpower=1 #1000000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

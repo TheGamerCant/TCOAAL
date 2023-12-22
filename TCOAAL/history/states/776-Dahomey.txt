@@ -1,0 +1,18 @@
+
+state={
+	id=776
+	name="STATE_776" # Benin/Dahomey
+	manpower = 1 #1351563
+	
+	state_category=wasteland# = pastoral
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		10919 12874 12762
+	}
+
+	local_supplies=1.0 
+}

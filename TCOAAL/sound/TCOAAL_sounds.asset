@@ -1,0 +1,5 @@
+sound = {
+	name = "TCOAAL_button_click"
+	file = "TCOAAL_button_click.wav"
+	always_load = yes
+}

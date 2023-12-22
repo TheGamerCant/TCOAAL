@@ -1,0 +1,29 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_0000_intro_andy"
+		texturefile = "gfx/pics/0000_intro_andy.png"
+	}
+	SpriteType = { 
+		name = "GFX_0001_intro_leyley"
+		texturefile = "gfx/pics/0001_intro_leyley.png"
+	}
+	SpriteType = { 
+		name = "GFX_0002_intro_wake"
+		texturefile = "gfx/pics/0002_intro_wake.png"
+	}
+	SpriteType = { 
+		name = "GFX_0003_intro_wake"
+		texturefile = "gfx/pics/0003_intro_wake.png"
+	}
+	FrameAnimatedSpriteType = {
+		name = "GFX_0004_intro_wake_anim"
+		textureFile = "gfx/pics/0004_intro_wake_anim.png"
+		noOfFrames = 5
+		loadType = "INGAME"
+		alwaystransparent = no
+		animation_rate_fps = 5.6
+		looping = no
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+}

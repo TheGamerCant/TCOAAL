@@ -1,0 +1,19 @@
+
+state={
+	id=34
+	name="STATE_34"
+	manpower = 1 #3381300
+	
+	state_category=wasteland# = large_city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		3488 3516 6537 9418 9444 9536 11407 11519 13081 
+	}
+
+	local_supplies=14.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=722
+	name="STATE_722" #PETSAMO
+	manpower = 1 #2371
+
+	state_category=wasteland# = enclave
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	
+	provinces={
+		6012 6183 9140 11142 
+	}
+
+	local_supplies=0.0 
+}

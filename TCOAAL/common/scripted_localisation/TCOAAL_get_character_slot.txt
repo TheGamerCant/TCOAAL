@@ -1,0 +1,16 @@
+defined_text = {
+    name = get_RIGHT_slot_image
+	
+    text = {
+        trigger = {
+            has_country_flag = ashley_apartment_intro_0001_flag
+        }
+        localization_key = "GFX_Ashley_weak"
+    }
+
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}

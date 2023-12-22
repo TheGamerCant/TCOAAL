@@ -1,0 +1,23 @@
+
+state={
+	id=489
+	name="STATE_489" # Zulia
+	manpower = 1 #1576373
+	
+	state_category=wasteland# = town
+	
+	resources={
+		oil=35 # was: 126
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+
+	local_supplies=6.0 
+}

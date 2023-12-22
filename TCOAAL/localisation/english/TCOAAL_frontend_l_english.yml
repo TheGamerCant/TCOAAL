@@ -1,0 +1,4 @@
+﻿l_english:
+ TCOAAL_controls_text:0 "Use WASD to move and use 'space' or 'e' to interact."
+ turn_on_music_warning_text:0 "To get the best TCOAAL experience, it is recommended to turn on music (options -> audio) and turn off ironman mode."
+ init_message:0 "Press 'SPACE' to begin."

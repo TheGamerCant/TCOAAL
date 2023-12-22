@@ -1,0 +1,19 @@
+state = {
+	id = 915
+	name = "STATE_915" # Bohuslän
+	manpower = 1 #96212
+	state_category=wasteland# = rural
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+
+
+	provinces = {
+		171 6310 
+	}
+
+	local_supplies=0.000
+}

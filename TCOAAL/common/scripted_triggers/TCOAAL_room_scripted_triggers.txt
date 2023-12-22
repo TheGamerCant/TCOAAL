@@ -1,0 +1,198 @@
+get_is_move_valid={
+	if={
+		limit = { has_country_flag = in_apartment_main_flag }
+		if={
+			limit={
+				OR={
+					AND={
+						check_variable = { player_position_x = 622 }
+						check_variable = { player_position_y = 540 }
+						NOT = { check_variable = { player_direction_variable = 4 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 671 }
+						check_variable = { player_position_y = 491 }
+						OR={
+							check_variable = { player_direction_variable = 1 }
+							check_variable = { player_direction_variable = 3 }
+						}
+					}
+					AND={
+						check_variable = { player_position_x = 573 }
+						check_variable = { player_position_y = 491 }
+						check_variable = { player_direction_variable = 1 }
+					}
+					AND={
+						check_variable = { player_position_x = 524 }
+						check_variable = { player_position_y = 491 }
+						OR={
+							check_variable = { player_direction_variable = 1 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+					AND={
+						check_variable = { player_position_x = 475 }
+						check_variable = { player_position_y = 491 }
+						NOT = { check_variable = { player_direction_variable = 3 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 573 }
+						check_variable = { player_position_y = 442 }
+						check_variable = { player_direction_variable = 2 }
+					}
+					AND={
+						check_variable = { player_position_x = 720 }
+						check_variable = { player_position_y = 442 }
+						NOT = { check_variable = { player_direction_variable = 2 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 671 }
+						check_variable = { player_position_y = 393 }
+						check_variable = { player_direction_variable = 3 }
+					}
+					AND={
+						OR={
+							check_variable = { player_position_x = 524 }
+							check_variable = { player_position_x = 475 }
+						}
+						check_variable = { player_position_y = 393 }
+						OR={
+							check_variable = { player_direction_variable = 1 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+					AND={
+						check_variable = { player_position_x = 426 }
+						check_variable = { player_position_y = 393 }
+						NOT = { check_variable = { player_direction_variable = 3 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 671 }
+						check_variable = { player_position_y = 344 }
+						OR={
+							check_variable = { player_direction_variable = 3 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+					AND={
+						check_variable = { player_position_x = 573 }
+						check_variable = { player_position_y = 344 }
+						check_variable = { player_direction_variable = 2 }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 622 }
+						check_variable = { player_position_y = 295 }
+						check_variable = { player_direction_variable = 3 }
+					}
+					AND={
+						OR={
+							check_variable = { player_position_x = 524 }
+							check_variable = { player_position_x = 475 }
+						}
+						check_variable = { player_position_y = 295 }
+						check_variable = { player_direction_variable = 1 }
+					}
+					AND={
+						check_variable = { player_position_x = 426 }
+						check_variable = { player_position_y = 295 }
+						OR={
+							check_variable = { player_direction_variable = 1 }
+							check_variable = { player_direction_variable = 2 }
+						}
+					}
+					
+					AND={
+						check_variable = { player_position_x = 622 }
+						check_variable = { player_position_y = 246 }
+						check_variable = { player_direction_variable = 3 }
+					}
+					AND={
+						OR={
+							check_variable = { player_position_x = 426 }
+							check_variable = { player_position_x = 475 }
+						}
+						check_variable = { player_position_y = 246 }
+						check_variable = { player_direction_variable = 4 }
+					}
+					AND={
+						check_variable = { player_position_x = 377 }
+						check_variable = { player_position_y = 246 }
+						NOT = { check_variable = { player_direction_variable = 3 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 867 }
+						check_variable = { player_position_y = 197 }
+						NOT = { check_variable = { player_direction_variable = 2 } }
+					}
+					AND={
+						check_variable = { player_position_x = 818 }
+						check_variable = { player_position_y = 197 }
+						OR={
+							check_variable = { player_direction_variable = 1 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+					AND={
+						OR={
+							check_variable = { player_position_x = 769 }
+							check_variable = { player_position_x = 720 }
+							check_variable = { player_position_x = 671 }
+						}
+						check_variable = { player_position_y = 197 }
+						check_variable = { player_direction_variable = 1 }
+					}
+					AND={
+						check_variable = { player_position_x = 524 }
+						check_variable = { player_position_y = 197 }
+						check_variable = { player_direction_variable = 2 }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 769 }
+						check_variable = { player_position_y = 148 }
+						check_variable = { player_direction_variable = 3 }
+					}
+					AND={
+						OR={
+							check_variable = { player_position_x = 671 }
+							check_variable = { player_position_x = 622 }
+							check_variable = { player_position_x = 573 }
+							check_variable = { player_position_x = 524 }
+						}
+						check_variable = { player_position_y = 148 }
+						check_variable = { player_direction_variable = 4 }
+					}
+					AND={
+						check_variable = { player_position_x = 475 }
+						check_variable = { player_position_y = 148 }
+						NOT = { check_variable = { player_direction_variable = 3 } }
+					}
+					
+					AND={
+						check_variable = { player_position_x = 720 }
+						check_variable = { player_position_y = 99 }
+						OR={
+							check_variable = { player_direction_variable = 2 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+					AND={
+						check_variable = { player_position_x = 769 }
+						check_variable = { player_position_y = 99 }
+						OR={
+							check_variable = { player_direction_variable = 3 }
+							check_variable = { player_direction_variable = 4 }
+						}
+					}
+				}
+			}
+			always = no
+		}
+	}
+}

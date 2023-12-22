@@ -1,0 +1,83 @@
+guiTypes = {
+	containerWindowType = {
+		name ="tcoaal_intro"
+		position = { x = 0 y = 0 }	
+		size = { width = 1296 height = 720 }
+		orientation = center
+		origo = center
+		moveable = no
+		
+#		background = {
+#			name = "Background"		
+#			quadTextureSprite ="GFX_test_bg"
+#		}
+		
+		iconType = {
+			name = "andy"
+			position = { x = 0 y = 0 }
+			spriteType ="GFX_0000_intro_andy"
+			Orientation = "upper_left"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "leyley"
+			position = { x = 0 y = 0 }
+			spriteType ="GFX_0001_intro_leyley"
+			Orientation = "upper_left"
+			alwaystransparent = yes
+		}
+		
+#		iconType = {
+#			name = "wake_0"
+#			position = { x = 0 y = 0 }
+#			spriteType ="GFX_0002_intro_wake"
+#			Orientation = "upper_left"
+#			alwaystransparent = yes
+#		}
+#		iconType = {
+#			name = "wake_1"
+#			position = { x = 0 y = 0 }
+#			spriteType ="GFX_0003_intro_wake"
+#			Orientation = "upper_left"
+#			alwaystransparent = yes
+#		}
+		iconType = {
+			name = "wake_anim"
+			position = { x = 348 y = 111 }
+			spriteType ="GFX_0004_intro_wake_anim"
+			Orientation = "upper_left"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "intro_message_bg"
+			position = { x = 0 y = 230 }
+			spriteType ="GFX_message_bg"
+			Orientation = "upper_left"
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "intro_speaker_text_box"
+			position = { x = -375 y = 195 }
+			font = "TCOAAL_32"
+			text = "speaker_text"
+			maxWidth = 750
+			maxHeight = 130
+			fixedsize = yes
+			orientation = center
+			format = centre
+		}
+		instantTextBoxType = {
+			name = "intro_message_text_box"
+			position = { x = -375 y = 235 }
+			font = "TCOAAL_32"
+			text = "intro_message_text"
+			maxWidth = 750
+			maxHeight = 130
+			fixedsize = yes
+			orientation = center
+			format = centre
+		}
+	}
+}

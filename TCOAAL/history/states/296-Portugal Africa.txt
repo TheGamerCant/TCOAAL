@@ -1,0 +1,20 @@
+
+state={
+	id=296
+	name="STATE_296" # Guinea-Bissau
+	manpower = 1 #364900
+	
+	state_category=wasteland# = enclave
+	resources={
+		rubber=1 # was: 1
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		12747 12891 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=301
+	name="STATE_301"
+	manpower = 1 #890100
+	
+	state_category=wasteland# = town
+	
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	
+
+	local_supplies=0.0 
+}

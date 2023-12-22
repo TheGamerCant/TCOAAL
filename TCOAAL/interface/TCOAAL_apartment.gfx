@@ -1,0 +1,27 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_apartment_main_grid"
+		texturefile = "gfx/maps/apartment_main_grid.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_apartment_main"
+		texturefile = "gfx/maps/apartment_main.png"
+	}
+	SpriteType = { 
+		name = "GFX_apartment_main_overlay"
+		texturefile = "gfx/maps/apartment_main_overlay.png"
+	}
+	SpriteType = { 
+		name = "GFX_apartment_AAL_bedroom"
+		texturefile = "gfx/maps/AAL_bedroom.png"
+	}
+	SpriteType = { 
+		name = "GFX_apartment_laundry_room"
+		texturefile = "gfx/maps/apartment_laundry_room.png"
+	}
+	SpriteType = { 
+		name = "GFX_apartment_parents_beroom"
+		texturefile = "gfx/maps/apartment_parents_beroom.png"
+	}
+}

@@ -1,0 +1,86 @@
+scripted_gui = {
+	tcoaal_black_bg = {
+		window_name = "tcoaal_black_bg"
+		context_type = player_context
+		
+		ai_enabled={
+			always = no
+		}
+		
+		visible={
+			always = yes
+		}
+		
+		triggers={
+			welcome_message_visible={
+				has_country_flag = initgameflag
+			}
+			SPACE_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			SPACE_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			E_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			E_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			W_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			W_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			A_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			A_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			S_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			S_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			D_button_visible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			D_button_click_eligible={
+				NOT = { has_country_flag = initgameflag }
+			}
+			
+			chapter1_title_card_visible={
+				has_country_flag = show_chapter_1_title_flag
+			}
+		}
+		
+		effects={
+			KP_PLUS_button_click={
+			}
+			KP_MINUS_button_click={
+			}
+			SPACE_button_click={
+				get_space_button_effect = yes
+			}
+			E_button_click={
+				get_space_button_effect = yes
+			}
+			
+			W_button_click={
+				get_W_button_effect = yes
+			}
+			A_button_click={
+				get_A_button_effect = yes
+			}
+			S_button_click={
+				get_S_button_effect = yes
+			}
+			D_button_click={
+				get_D_button_effect = yes
+			}
+		}
+	}
+}

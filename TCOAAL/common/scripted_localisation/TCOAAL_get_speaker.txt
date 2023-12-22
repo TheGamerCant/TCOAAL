@@ -1,0 +1,38 @@
+defined_text = {
+    name = get_speaker
+	
+    text = {
+        trigger = {
+			OR={
+				has_country_flag = intro_andy_0000_flag
+				has_country_flag = intro_andy_0003_flag
+				has_country_flag = intro_andy_0005_flag
+			}
+        }
+        localization_key = "andy_speaker"
+    }
+	text = {
+        trigger = {
+			OR={
+				has_country_flag = intro_leyley_0001_flag
+				has_country_flag = intro_leyley_0002_flag
+				has_country_flag = intro_leyley_0004_flag
+			}
+        }
+        localization_key = "leyley_speaker"
+    }
+	text = {
+        trigger = {
+			OR={
+				has_country_flag = ashley_apartment_intro_0001_flag
+			}
+        }
+        localization_key = "ashley_speaker"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}

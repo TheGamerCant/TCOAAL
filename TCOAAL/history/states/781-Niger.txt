@@ -1,0 +1,19 @@
+
+state={
+	id=781
+	name="STATE_781" # Niger
+	manpower = 1 #543817
+	
+	state_category=wasteland# = pastoral
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1975 2056 12707
+	}
+
+	local_supplies=1.0 
+}

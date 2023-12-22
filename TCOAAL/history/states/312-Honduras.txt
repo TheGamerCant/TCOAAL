@@ -1,0 +1,20 @@
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=1 #859761
+	resources={
+		chromium=1 # was: 1
+	}
+	
+	state_category=wasteland# = town
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		2031 8017 12865
+	}
+
+	local_supplies=0.0 
+}

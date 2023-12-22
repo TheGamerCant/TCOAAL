@@ -1,0 +1,21 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 1 #76299
+	
+	state_category=wasteland# = rural
+
+	resources={
+		oil=35 # was: 126
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		153 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,56 @@
+scripted_gui = {
+	tcoaal_intro = {
+		window_name = "tcoaal_intro"
+		context_type = player_context
+		
+		ai_enabled={
+			always = no
+		}
+		
+		visible={
+			has_country_flag = intro_cutscene_1_flag
+		}
+		
+		triggers={
+			andy_visible={
+				OR={
+					has_country_flag = intro_andy_0000_flag
+					has_country_flag = intro_leyley_0001_flag
+					has_country_flag = intro_leyley_0002_flag
+					has_country_flag = intro_andy_0003_flag
+					has_country_flag = intro_leyley_0004_flag
+				}
+			}
+			leyley_visible={
+				OR={
+					has_country_flag = intro_leyley_0001_flag
+					has_country_flag = intro_leyley_0002_flag
+					has_country_flag = intro_andy_0003_flag
+					has_country_flag = intro_leyley_0004_flag
+				}
+			}
+			intro_message_bg_visible={
+				OR={
+					has_country_flag = intro_andy_0000_flag
+					has_country_flag = intro_leyley_0001_flag
+					has_country_flag = intro_leyley_0002_flag
+					has_country_flag = intro_andy_0003_flag
+					has_country_flag = intro_leyley_0004_flag
+					has_country_flag = intro_andy_0005_flag
+				}
+			}
+#			wake_0_visible={
+#				has_country_flag = intro_wake_0_flag
+#			}
+#			wake_1_visible={
+#				has_country_flag = intro_wake_1_flag
+#			}
+			wake_anim_visible={
+				has_country_flag = intro_wake_0_flag
+			}
+		}
+		
+		effects={
+		}
+	}
+}

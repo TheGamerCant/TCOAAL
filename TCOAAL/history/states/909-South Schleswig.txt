@@ -1,0 +1,17 @@
+state = {
+	id = 909
+	name = "STATE_909"
+	manpower = 1 #152520
+	state_category=wasteland# = rural
+	
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces = {
+		317 3231 11366
+ 	}
+
+	local_supplies = 0.0 
+}

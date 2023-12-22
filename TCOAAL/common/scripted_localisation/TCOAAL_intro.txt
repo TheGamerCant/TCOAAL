@@ -1,0 +1,46 @@
+defined_text = {
+    name = get_intro_message_text
+	
+    text = {
+        trigger = {
+            has_country_flag = intro_andy_0000_flag
+        }
+        localization_key = "intro_andy_0000"
+    }
+	text = {
+        trigger = {
+            has_country_flag = intro_leyley_0001_flag
+        }
+        localization_key = "intro_leyley_0001"
+    }
+	text = {
+        trigger = {
+            has_country_flag = intro_leyley_0002_flag
+        }
+        localization_key = "intro_leyley_0002"
+    }
+	text = {
+        trigger = {
+            has_country_flag = intro_andy_0003_flag
+        }
+        localization_key = "intro_andy_0003"
+    }
+	text = {
+        trigger = {
+            has_country_flag = intro_leyley_0004_flag
+        }
+        localization_key = "intro_leyley_0004"
+    }
+	text = {
+        trigger = {
+            has_country_flag = intro_andy_0005_flag
+        }
+        localization_key = "intro_andy_0005"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}

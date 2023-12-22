@@ -1,0 +1,22 @@
+
+state={
+	id=131
+	name="STATE_131"
+	manpower = 1 #2128860
+	
+	state_category=wasteland# = city
+	resources = {
+		steel = 18
+		
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		351 11270 11299 
+	}
+
+	local_supplies=14.0 
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=266
+	name="STATE_266" # Tehran
+	manpower = 1 #3446250
+	
+	state_category=wasteland# = town
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		4580 7602 10385 10768 10837 
+	}
+
+	local_supplies=0.0 
+}

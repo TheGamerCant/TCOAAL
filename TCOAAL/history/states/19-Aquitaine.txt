@@ -1,0 +1,24 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		steel=14 #was 25
+		aluminium=11
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		6621 6762 6777 9737 11565 
+	}
+	manpower=1 #1140400
+	buildings_max_level_factor=1.000
+	state_category=wasteland#=city
+
+	local_supplies=0.0 
+}

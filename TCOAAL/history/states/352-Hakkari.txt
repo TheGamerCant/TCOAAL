@@ -1,0 +1,20 @@
+
+state={
+	id=352
+	name="STATE_352" # Van
+	manpower = 1 #262095
+
+	state_category=wasteland# = rural
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		864 1463 7530 10497 11739 12318 12476
+	}
+
+	local_supplies=0.0 
+}
+

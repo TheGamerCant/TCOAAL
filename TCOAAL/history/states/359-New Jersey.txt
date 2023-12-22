@@ -1,0 +1,20 @@
+
+state={
+	id=359
+	name="STATE_359"
+	manpower = 1 #4041332
+	
+	state_category=wasteland# = large_city
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		3693 3863 6882 9801 9864 11740 11782 11900 
+	}
+	
+
+	local_supplies=15.0 
+}

@@ -1,0 +1,193 @@
+get_space_button_effect={
+	if={
+		limit = { NOT = { has_country_flag = space_button_diabled } }
+		if={
+			limit = { has_country_flag = intro_cutscene_1_flag }
+			if={
+				limit = { has_country_flag = intro_andy_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.5 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = intro_leyley_0001_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.6 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = intro_leyley_0002_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.7 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = intro_andy_0003_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.8 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = intro_leyley_0004_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.9 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = intro_andy_0005_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.10 hours = 1 }
+			}
+		}
+		else_if={
+			limit = { has_country_flag = in_apartment_main_flag }
+			if={
+				limit = { has_country_flag = narrator_apartment_intro_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.16 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = ashley_apartment_intro_0001_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.17 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = narrator_apartment_intro_0002_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.18 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = narrator_apartment_intro_0003_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.19 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = narrator_apartment_intro_0004_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.20 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = movies_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.21 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = movies_0001_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.22 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = television_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.23 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = television_0001_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.24 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = telephone_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.25 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = telephone_0001_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.26 hours = 1 }
+			}
+			else_if={
+				limit = { has_country_flag = VHS_player_0000_flag }
+				set_country_flag = space_button_diabled
+				country_event = { id = tcoaal.27 hours = 1 }
+			}
+		}
+	}
+	
+	if={
+		limit = { can_interact_with_object = yes }
+		interact_with_object = yes
+	}
+}
+
+get_W_button_effect={
+	if={
+		limit = { has_country_flag = player_is_ashley_flag }
+		set_variable = { player_direction_variable = 4 }
+	}
+
+	if={
+		limit = { NOT = { has_country_flag = player_moved_recently_flag } get_is_move_valid = yes  }
+		set_variable = { player_previous_position_y = player_position_y }
+		add_to_variable = { player_position_y = -49 }
+		set_country_flag = player_moved_recently_flag
+	}
+
+	country_event = { id = tcoaal.14 hours = 2 }
+}
+
+get_A_button_effect={
+	if={
+		limit = { has_country_flag = player_is_ashley_flag }
+		set_variable = { player_direction_variable = 2 }
+	}
+
+	if={
+		limit = { NOT = { has_country_flag = player_moved_recently_flag } get_is_move_valid = yes  }
+		set_variable = { player_previous_position_x = player_position_x }
+		add_to_variable = { player_position_x = -49 }
+		set_country_flag = player_moved_recently_flag
+	}
+	
+	country_event = { id = tcoaal.14 hours = 2 }
+}
+
+get_S_button_effect={
+	if={
+		limit = { has_country_flag = player_is_ashley_flag }
+		set_variable = { player_direction_variable = 1 }
+	}
+
+	if={
+		limit = { NOT = { has_country_flag = player_moved_recently_flag } get_is_move_valid = yes }
+		set_variable = { player_previous_position_y = player_position_y }
+		add_to_variable = { player_position_y = 49 }
+		set_country_flag = player_moved_recently_flag
+	}
+	
+	country_event = { id = tcoaal.14 hours = 2 }
+}
+
+get_D_button_effect={
+	if={
+		limit = { has_country_flag = player_is_ashley_flag }
+		set_variable = { player_direction_variable = 3 }
+	}
+
+	if={
+		limit = { NOT = { has_country_flag = player_moved_recently_flag } get_is_move_valid = yes  }
+		set_variable = { player_previous_position_x = player_position_x }
+		add_to_variable = { player_position_x = 49 }
+		set_country_flag = player_moved_recently_flag
+	}
+	
+	country_event = { id = tcoaal.14 hours = 2 }
+}
+
+interact_with_object = {
+	if={
+		limit = { is_facing_used_movies = yes }
+		set_country_flag = has_interacted_with_movies_flag
+		set_country_flag = movies_0000_flag
+	}
+	else_if={
+		limit = { is_facing_VHS_player = yes }
+		set_country_flag = has_interacted_with_VHS_player_flag
+		set_country_flag = VHS_player_0000_flag
+	}
+	else_if={
+		limit = { is_facing_telephone = yes }
+		set_country_flag = has_interacted_with_telephone_flag
+		set_country_flag = telephone_0000_flag
+	}
+	else_if={
+		limit = { is_facing_television = yes }
+		set_country_flag = has_interacted_with_television_flag
+		set_country_flag = television_0000_flag
+	}
+}

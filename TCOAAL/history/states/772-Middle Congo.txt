@@ -1,0 +1,21 @@
+
+state={
+	id=772
+	name="STATE_772" # Middle Congo (Brazzaville)
+	manpower = 1 #746415
+	
+	state_category=wasteland# = pastoral
+	resources={
+		rubber=1 # was: 1
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		2192 3109 6008 8193 12975 
+	}
+
+	local_supplies=0.0 
+}

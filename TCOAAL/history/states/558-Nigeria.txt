@@ -1,0 +1,21 @@
+
+state={
+	id=558
+	name="STATE_558"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		2050 4952 12731 12817 12900 
+	}
+	manpower=1 #19757000
+	buildings_max_level_factor=1.000
+	state_category=wasteland#=rural
+	local_supplies=0.000
+}

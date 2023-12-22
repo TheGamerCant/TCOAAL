@@ -1,0 +1,19 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 1 #82535
+	
+	state_category=wasteland# = wasteland
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		1127 4120 10123 11954 
+	}
+
+	local_supplies=0.0 
+}

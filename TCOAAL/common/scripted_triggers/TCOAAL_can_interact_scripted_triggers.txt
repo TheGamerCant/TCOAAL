@@ -1,0 +1,65 @@
+is_facing_used_movies={
+	AND={
+		has_country_flag = in_apartment_main_flag
+		NOT = { has_country_flag = has_interacted_with_movies_flag }
+		OR={
+			AND={
+				check_variable = { player_position_x = 524 }
+				check_variable = { player_position_y = 491 }
+				check_variable = { player_direction_variable = 4 }
+			}
+			AND={
+				check_variable = { player_position_x = 573 }
+				check_variable = { player_position_y = 442 }
+				check_variable = { player_direction_variable = 2 }
+			}
+			AND={
+				check_variable = { player_position_x = 524 }
+				check_variable = { player_position_y = 393 }
+				check_variable = { player_direction_variable = 1 }
+			}
+		}
+	}
+}
+is_facing_VHS_player={
+	AND={
+		has_country_flag = in_apartment_main_flag
+		NOT = { has_country_flag = has_interacted_with_VHS_player_flag }
+		AND={
+			check_variable = { player_position_x = 426 }
+			check_variable = { player_position_y = 393 }
+			check_variable = { player_direction_variable = 1 }
+		}
+	}
+}
+is_facing_telephone={
+	AND={
+		has_country_flag = in_apartment_main_flag
+		NOT = { has_country_flag = has_interacted_with_telephone_flag }
+		AND={
+			check_variable = { player_position_x = 475 }
+			check_variable = { player_position_y = 491 }
+			check_variable = { player_direction_variable = 2 }
+		}
+	}
+}
+is_facing_television={
+	AND={
+		has_country_flag = in_apartment_main_flag
+		NOT = { has_country_flag = has_interacted_with_television_flag }
+		AND={
+			check_variable = { player_position_x = 475 }
+			check_variable = { player_position_y = 393 }
+			check_variable = { player_direction_variable = 1 }
+		}
+	}
+}
+
+can_interact_with_object={
+	OR={
+		is_facing_used_movies = yes
+		is_facing_VHS_player = yes
+		is_facing_telephone = yes
+		is_facing_television = yes
+	}
+}

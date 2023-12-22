@@ -1,0 +1,86 @@
+defined_text = {
+    name = get_apartment_message_text
+	
+    text = {
+        trigger = {
+            has_country_flag = narrator_apartment_intro_0000_flag
+        }
+        localization_key = "narrator_apartment_intro_0000"
+    }
+	text = {
+        trigger = {
+            has_country_flag = ashley_apartment_intro_0001_flag
+        }
+        localization_key = "ashley_apartment_intro_0001"
+    }
+	text = {
+        trigger = {
+            has_country_flag = narrator_apartment_intro_0002_flag
+        }
+        localization_key = "narrator_apartment_intro_0002"
+    }
+	text = {
+        trigger = {
+            has_country_flag = narrator_apartment_intro_0003_flag
+        }
+        localization_key = "narrator_apartment_intro_0003"
+    }
+	text = {
+        trigger = {
+            has_country_flag = narrator_apartment_intro_0004_flag
+        }
+        localization_key = "narrator_apartment_intro_0004"
+    }
+
+	text = {
+        trigger = {
+            has_country_flag = movies_0000_flag
+        }
+        localization_key = "movies_0000"
+    }
+	text = {
+        trigger = {
+            has_country_flag = movies_0001_flag
+        }
+        localization_key = "movies_0001"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = television_0000_flag
+        }
+        localization_key = "television_0000"
+    }
+	text = {
+        trigger = {
+            has_country_flag = television_0001_flag
+        }
+        localization_key = "television_0001"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = telephone_0000_flag
+        }
+        localization_key = "telephone_0000"
+    }
+	text = {
+        trigger = {
+            has_country_flag = telephone_0001_flag
+        }
+        localization_key = "telephone_0001"
+    }
+	
+	text = {
+        trigger = {
+            has_country_flag = VHS_player_0000_flag
+        }
+        localization_key = "VHS_player_0000"
+    }
+
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}

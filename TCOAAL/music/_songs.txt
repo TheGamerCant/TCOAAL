@@ -1,0 +1,59 @@
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+
+music = {
+	song = "jingle"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+music = {
+	song = "disk_scratch"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+music = {
+	song = "stop_track"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+music = {
+	song = "twisted_clowns"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+music = {
+	song = "jealous_doll"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+music = {
+	song = "dreaming_injection"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}
+
+

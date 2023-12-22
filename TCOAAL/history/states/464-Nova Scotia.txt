@@ -1,0 +1,19 @@
+
+state={
+	id=464
+	name="STATE_464"
+	manpower = 1 #490912
+	
+	state_category=wasteland# = rural
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	provinces={
+		1354 4360 4430 4623 7304 7361 7644 10244 
+	}
+	
+
+	local_supplies=11.0 
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=26
+	name="STATE_26" # Auveregne
+	manpower = 1 #877800
+	
+	state_category=wasteland# = town
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+
+	provinces={
+		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576 
+	}
+
+	local_supplies=6.0 
+}

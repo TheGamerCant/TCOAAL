@@ -1,0 +1,33 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_black_bg"
+		texturefile = "gfx/interface/black_bg.png"
+		borderSize = { x=0 y=0 }
+		size = { x=1 y=1 }
+		tilingCenter = no
+	}
+
+
+	SpriteType = { 
+		name = "GFX_chapter1_title_card"
+		texturefile = "gfx/interface/chapter1_title.png"
+	}
+	SpriteType = { 
+		name = "GFX_chapter2_title_card"
+		texturefile = "gfx/interface/chapter2_title.png"
+	}
+	SpriteType = { 
+		name = "GFX_message_bg"
+		texturefile = "gfx/interface/message_bg.png"
+	}
+	SpriteType = { 
+		name = "GFX_tcoaal_buttons"
+		texturefile = "gfx/interface/tcoaal_buttons.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = { 
+		name = "GFX_test_bg"
+		texturefile = "gfx/test_bg.png"
+	}
+}

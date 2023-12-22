@@ -1,0 +1,96 @@
+guiTypes = {
+	containerWindowType = {
+		name ="tcoaal_apartment_main"
+		position = { x = 0 y = 0 }	
+		size = { width = 1296 height = 720 }
+		orientation = center
+		origo = center
+		moveable = no
+		clipping = yes
+		
+#		background = {
+#			name = "Background"		
+#			quadTextureSprite ="GFX_test_bg"
+#		}
+		
+		iconType = {
+			name = "apartment_bg"
+			position = { x = 0 y = 0 }
+			spriteType ="GFX_apartment_main"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "player"
+			position = { x = 622 y = 432 }
+			spriteType ="GFX_Ashley_sprite"
+			alwaystransparent = yes
+			frame = 1
+		}
+		
+		
+		iconType = {
+			name = "apartment_overlay"
+			position = { x = 0 y = 0 }
+			spriteType ="GFX_apartment_main_overlay"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "interact_sprite"
+			position = { x = 622 y = 432 }
+			spriteType ="GFX_interact_marker"
+			alwaystransparent = yes
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "left_hand_slot"
+			position = { x = 421 y = -510 }
+			spriteType ="GFX_Ashley_weak"
+			alwaystransparent = yes
+			frame = 1
+			orientation = "lower_left"
+		}
+		iconType = {
+			name = "right_hand_slot"
+			position = { x = -421 y = -510 }
+			spriteType ="GFX_Ashley_weak"
+			alwaystransparent = yes
+			frame = 2
+			orientation = "lower_right"
+		}
+		
+		
+		iconType = {
+			name = "apartment_message_bg"
+			position = { x = 0 y = 230 }
+			spriteType ="GFX_message_bg"
+			Orientation = "upper_left"
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "apartment_speaker_text_box"
+			position = { x = -375 y = 195 }
+			font = "TCOAAL_32"
+			text = "speaker_text"
+			maxWidth = 750
+			maxHeight = 130
+			fixedsize = yes
+			orientation = center
+			format = centre
+		}
+		instantTextBoxType = {
+			name = "apartment_message_text_box"
+			position = { x = -375 y = 235 }
+			font = "TCOAAL_32"
+			text = "apartment_message_text"
+			maxWidth = 750
+			maxHeight = 130
+			fixedsize = yes
+			orientation = center
+			format = centre
+		}
+	}
+}
